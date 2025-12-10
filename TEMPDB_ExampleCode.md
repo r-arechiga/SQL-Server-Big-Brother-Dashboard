@@ -43,8 +43,8 @@ Inserts results into the central dashboard table.
 ✔️ Uses Invoke-Sqlcmd (SQLServer module required)
 
 In my early days as a Jr. DBA I experimented with different ways of feeding the script a server name list to iterate through. In this example, I use a csv list.
-In my CPU script I utilize a hardcoded list. 
-As i've matured, I've moved my scripts to now use a custome stored procedure to refrence a master table full of servernames and their status.
+In my CPU script, I utilize a hardcoded list. 
+As i've matured, I've moved my scripts to now use a custom stored procedure to reference a master table full of servernames and their status.
 
 To keep it simple, I'll show one utilzing a csv. 
 
